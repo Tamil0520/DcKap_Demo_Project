@@ -66,15 +66,17 @@ public class LoginPage extends BaseClass {
 	@FindBy(xpath="//input[@type='checkbox'])[1]")
 	private WebElement safty;
 	
-	//@FindBy(xpath="//input[@type='checkbox'])[2]")
-	//private WebElement saftyproduct;
+    @FindBy(xpath="//input[@type='checkbox'])[2]")
+	private WebElement saftyproduct;
 	
 	@FindBy(name="name")
 	private WebElement givename;
 	
-	@FindBy(xpath="(//button[@type='button'])[41]")
-	private WebElement clickgivenname;
+	//@FindBy(xpath="(//button[@type='button'])[41]")
+	//private WebElement clickgivenname;
 	
+	@FindBy(xpath="//span[text()='Save']")
+	private WebElement saved;
 	
 	
 	
@@ -119,9 +121,25 @@ public class LoginPage extends BaseClass {
 	
 	
 	
-	public WebElement getClickgivenname() {
-		return clickgivenname;
+	//public WebElement getClickgivenname() {
+		//return clickgivenname;
+	//}
+
+	public WebElement getSaved() {
+		return saved;
 	}
+
+	//public void setSave(WebElement save) {
+	//	this.save = save;
+	//}
+
+	public WebElement getSaftyproduct() {
+		return saftyproduct;
+	}
+
+	//public WebElement getSave() {
+	//	return save;
+	//}
 
 	public WebElement getGivename() {
 		return givename;

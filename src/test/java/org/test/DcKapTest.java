@@ -59,11 +59,12 @@ public class DcKapTest extends BaseClass {
 		//l.getUploadphoto().click();
 		//l.getUploadimg().click();
 		//l.getAssign().click();
-		l.getCategory().click();
-		l.getSafty().click();
+		//l.getCategory().click();
+		//l.getSafty().click();
 		//l.getSaftyproduct().click();
-		l.getGivename().sendKeys("luxury car");
-		l.getClickgivenname().click();
+		//l.getGivename().sendKeys("luxury car");
+		//l.getClickgivenname().click();
+		l.getSaved().click();
 		
 		
 		
